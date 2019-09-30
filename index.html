@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+
+          <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-example2">
+               &#9776;
+             </button>
+        <nav id="navbar-example2" class=" collapse navbar-collapse navbar navbar-dark bg-dark list-group">
+          <ul class="nav navbar-nav nav-pills navbar-dark">
+            <li class="nav-item ">
+              <a class="nav-link" href="#how">Cómo</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#what">Qué</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#which">Cúal</a>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      <div class="col-10">
+
+        <div class="col-12 display-3 text-center jumbotron text-white">
+          Ilusionados por crear deporte, fomentar la salud y
+          educar personas...
+        </div>
+        <div class="col-12 my-3 text-center">
+          <a data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <img src="images/sergio.jpg" alt="Jorge Blasco" class="mx-5 w-25 img-fluid rounded-circle" >
+          </a>
+          <a data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <img src="images/jorge.jpg"  alt="Sergio Martinez" class="mx-5 w-25 img-fluid rounded-circle" >
+          </a>
+        </div>
+
+        <div class="col-12 display-4 text-center my-3 card-header border text-white">ACTIVIDADES...</div>
+        <div class="col-12 my-3">
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="padres" data-toggle="tab" href="#padres" role="tab" aria-controls="padres"
+                aria-selected="true">Padres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="infantil-tab" data-toggle="tab" href="#infantil" role="tab"
+                aria-controls="infantil" aria-selected="false">Infantil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="primaria-tab" data-toggle="tab" href="#primaria" role="tab"
+                aria-controls="primaria" aria-selected="false">Primaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="secundaria-tab" data-toggle="tab" href="#secundaria" role="tab"
+                aria-controls="secundaria" aria-selected="false">Secundaria</a>
+            </li>
+          </ul>
+          <div class="col-12">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="padres" role="tabpanel" aria-labelledby="padres-tab">
+                <div class="row">
+                  <div class="col-5">Actividad</div>
+                  <div class="col-2">Minimo participantes</div>
+                  <div class="col-3">Horas a la semana</div>
+                  <div class="col-5">Yoga</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Pilates</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Zumba</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Actividad Física</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                </div>
+              </div>
+              <div class="tab-pane fade show" id="infantil" role="tabpanel" aria-labelledby="infantil-tab">
+                <div class="row">
+                  <div class="col-5">Actividad</div>
+                  <div class="col-2">M&iacute;nimo participantes</div>
+                  <div class="col-3">Horas a la semana</div>
+                  <div class="col-5">Art Attack</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Música y movimiento</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Multideporte</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Gimnasia r&iacute;tmica</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Zumba</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Psicomotricidad</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Patinaje</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Ingl&eacute;s</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                </div>
+              </div>
+              <div class="tab-pane fade show" id="primaria" role="tabpanel" aria-labelledby="primaria-tab">
+                <div class="row">
+                  <div class="col-5">Actividad</div>
+                  <div class="col-2">M&iacute;nimo participantes</div>
+                  <div class="col-3">Horas a la semana</div>
+                  <div class="col-5">Futbol</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Futbol con Partido</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Baloncesto</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Baloncesto con Partido</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Atletismo</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Datchball, Pichi, Colpbol, Hockey</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Volley 5º y 6º</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Bailes Modernos</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Banda Musical</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Art Attack</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">T&eacute;cnicas de estudio</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Multideporte</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Gimnasia r&iacute;tmica</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Zumba</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Inform&aacute;tica</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Patinaje</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Ingl&eacute;s</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                </div>
+              </div>
+              <div class="tab-pane fade show" id="secundaria" role="tabpanel" aria-labelledby="secundaria-tab">
+                <div class="row">
+                  <div class="col-5">Actividad</div>
+                  <div class="col-2">M&iacute;nimo participantes</div>
+                  <div class="col-3">Horas a la semana</div>
+                  <div class="col-5">Futbol</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Futbol con Partido</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Balonmano</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Balonmano con Partido</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Baloncesto</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Baloncesto con Partido</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Badminton</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Skate</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Volley</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Bailes Modernos</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Banda Instrumental</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">T&eacute;cnicas de estudio</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Guitarra</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Break Dance</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Zumba</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Diseño de videojuegos y apps</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Patinaje</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                  <div class="col-5">Ingl&eacute;s</div>
+                  <div class="col-2">8</div>
+                  <div class="col-3">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+          <div class="card">
+
+            <div class="col-12 display-4 text-center card-header text-white" data-toggle="collapse" data-target="#how"
+              aria-expanded="true" aria-controls="how">¿CÓMO SURGE ACTIVE ACADEMY?</div>
+            <div class="col-12 collapse my-3" id="how">
+              Active Academy nace de la ilusión por impulsar el deporte y los valores al que éste acompañan,
+              así como, su beneficio para la sociedad en general, centrándonos especialmente en la población
+              joven, a la cual queremos hacer partícipe y protagonista de esta aventura.</div>
+          </div>
+
+          <div class="card">
+
+            <div class="col-12 display-4 text-center card-header text-white" data-toggle="collapse" data-target="#what"
+              aria-expanded="false" aria-controls="what">¿QUÉ NOS CARACTERIZA?</div>
+            <div class="col-12 collapse my-3" id="what">
+              La búsqueda de la <b>transmisión de valores</b> como la cultura del esfuerzo, perseverancia y trabajo en
+              equipo, a través de situaciones de juego tanto individuales como colectivas. Creemos firmemente
+              en la importancia del autoconocimiento, mejora del auto concepto y el respeto por los que nos
+              rodean para el desarrollo personal integro de cada uno de nuestros alumnos. Para ello
+              utilizaremos una <b>metodología</b> vivencial, plena de experiencias y situaciones a resolver por parte
+              de los participantes, fomentando la búsqueda de soluciones y la creatividad.
+              Todo bajo una <b>planificación</b> marcada por unos objetivos adaptados a la edad y a las características
+              personales. Sin olvidarnos, en último lugar, de que uno de nuestros puntos a tener en cuenta, es
+              <b>la adaptación a la idiosincrasia y filosofía del centro</b> de las actividades propuestas, fomentando
+              caminar en la misma dirección que este nos proponga, y, de la misma manera, hacer partícipe a
+              cada persona de nuestro equipo.</div>
+          </div>
+          <div class="card">
+
+            <div class="col-12 display-4 text-center card-header text-white" data-toggle="collapse" data-target="#which"
+              aria-expanded="false" aria-controls="which">¿CUÁL ES NUESTRA META?</div>
+            <div class="col-12 collapse my-3" id="which">
+              Active Academy apuesta por generar hábitos saludables y activos como su propio nombre indica
+              desde el disfrute del juego, atendiendo a las necesidades de cada alumno, fomentando e
+              impulsando sus fortalezas, así como, ayudando a mejorar en aquello que se nos pueda resistir,
+              mediante un gran abanico de actividades con el objetivo de dar posibilidad a desarrollar las
+              destrezas de cada uno.</div>
+          </div>
+          <div class="card">
+
+            <div class="col-12 display-4 text-center card-header text-white">CONÓCENOS MÁS...</div>
+            <div class="col-12 my-3">
+              -A través de Instagram en @activeacademy_zgz
+              -En Banco de Actividades para Jóvenes del Servicio del Ayuntamiento de Zaragoza
+              -Contacto: 678998270 o 635802619 Email: <a
+                href="mailto:activeacademyzgz@gmail.com">activeacademyzgz@gmail.com</a></div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
